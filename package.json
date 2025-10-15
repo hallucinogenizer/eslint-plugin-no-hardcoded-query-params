@@ -1,0 +1,37 @@
+{
+  "name": "eslint-plugin-no-hardcoded-query-params",
+  "version": "1.0.0",
+  "description": "ESLint plugin to prevent hardcoded query parameter names in URL construction",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "hardcoded",
+    "query params",
+    "search params",
+    "url params"
+  ],
+  "author": "Muhammad Rohan Hussain",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hallucinogenizer/eslint-plugin-no-hardcoded-query-params.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hallucinogenizer/eslint-plugin-no-hardcoded-query-params/issues"
+  },
+  "homepage": "https://github.com/hallucinogenizer/eslint-plugin-no-hardcoded-query-params#readme",
+  "peerDependencies": {
+    "eslint": ">=7.0.0"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.mjs"
+    }
+  },
+  "packageManager": "pnpm@10.10.0"
+}
