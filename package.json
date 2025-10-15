@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-hardcoded-query-params",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "ESLint plugin to prevent hardcoded query parameter names in URL construction",
   "main": "index.js",
   "keywords": [
